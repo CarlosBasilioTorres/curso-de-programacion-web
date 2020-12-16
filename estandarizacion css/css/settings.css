@@ -1,0 +1,40 @@
+:root{
+    /*text-colors*/
+    --primary-color:red;
+    --secondary-color: black;
+    --contrast-color: orange;
+
+    /*backgrounds*/
+    --transtaparent-color: rgba(0,0,0,.4);
+
+    /*fills*/
+    --hover-fill: red;
+    --normal-fill: black;
+    --action-fill: purple;
+
+    /*background images*/
+    --principal-banner: url('../img/search.svg');
+
+}
+
+
+
+/*
+
+    Algebra
+
+    x + 10 = 0
+
+    ¿cuanto vale x?
+
+    x = -10
+
+    Una variable es una literal a la cual le asignamos un valor (puede cambiar)
+
+    programacion
+
+    Una literal a la cual se le asigna una localidad de memoria en donde
+    nosotros podemos almacenar informacion.
+
+*/
+

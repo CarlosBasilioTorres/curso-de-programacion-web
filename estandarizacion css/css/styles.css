@@ -1,0 +1,19 @@
+@import "settings.css";
+
+.main__section--p{
+    color: var(--primary-color);
+}
+
+svg{
+    width: 250px;
+    height: 250px;
+    fill: var(--normal-fill);
+}
+
+svg:hover{
+    fill: var(--hover-fill);
+}
+
+svg:active{
+    fill: var(--action-fill);
+}
