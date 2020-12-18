@@ -1,0 +1,93 @@
+
+#extra-important{
+    border: 5px solid blueviolet;
+}
+
+.table{
+    width: 100%;
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;    
+}
+
+.cabecera{
+    display: flex;    
+}
+
+.cabecera > div{
+    width: 20%;
+    text-align: center;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuerpo div{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.row:nth-of-type(even){
+    background-color: lightgray;
+}
+
+.row:nth-of-type(odd){
+    background-color: lightblue;
+}
+
+.row > div{
+    width: 20%;
+    text-align: center;
+}
+
+.col1 ~ div{
+    border: 1px solid green;
+}
+
+.col2 + div{
+    border: 1px solid red;
+}
+
+.cabecera div:first-child, .row div:nth-child(1){
+    border: 1px solid green;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row div:nth-last-child(2){
+    border: 1px solid black;
+}
+
+.row div:first-of-type{
+    border-top: 10px solid green !important;
+}
+
+.row div:nth-of-type(2n+3){
+    border: 1px solid salmon;
+}
+
+.row div div:only-of-type{
+    border: 5px dashed red;
+}
+
+.row div:last-of-type{
+    background-color: red;
+}
+
+.row div:empty{
+    background-color: green;
+}
+
+.row div:not(.col1){
+    background-color: royalblue;
+}
