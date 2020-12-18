@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-title{
+    color: salmon;
+}
+
+.page-header{
+    box-shadow: 10px 10px 10px red;
+}
+
+.title{
+    color: blue;
+}
+
+header{
+    display: flex;
+    padding: 10px 3%;
+    justify-content: space-between;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.3);
+}
+
+header h1{
+    color: green !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 10px;
+}
+
+header nav ul li a{
+    color: red;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
