@@ -1,0 +1,18 @@
+/*cercano*/
+h2 + p{
+    color: red;
+}
+
+/*hermano general*/
+h2 ~ p{
+    color: blue;
+}
+
+/*hijo*/
+.contenedor > h2{
+    color: yellowgreen;
+}
+
+.contenedor h2{
+    color: orange;
+}
