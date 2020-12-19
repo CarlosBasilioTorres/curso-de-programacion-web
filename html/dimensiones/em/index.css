@@ -1,0 +1,15 @@
+.container{
+    font-size: 20px;
+}
+
+.container > p{
+    font-size: 3em;
+}
+
+.container div{
+    font-size: 3em;
+}
+
+.container div p{
+    font-size: 5em;
+}
