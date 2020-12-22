@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Wallpapers</h1>
+        <nav></nav>
+    </header>
+    <main>
+        <aside class="scroller">
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp1.jpg" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp2.jpg" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp3.png" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp4.jpg" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp5.jpg" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="wp-container">
+                <a href="">
+                    <figure>
+                        <img src="./img/wp6.png" alt="wp1">
+                    </figure>
+                </a>
+            </div>
+        </aside>
+        <section>
+            <div class="viewer">
+                <img src="./img/wp1.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Sigueme en&nbsp;<a href="https://github.com/CarlosBasilioTorres/curso-de-programacion-web">Mi github personal</a>
+    </footer>
+
+    <script>
+        document.querySelectorAll(".scroller a img").forEach(function(element){
+            element.addEventListener('click',function(e){
+                e.preventDefault();
+                document.querySelector(".viewer img").src = e.target.src;                
+            })
+        })
+    </script>
+</body>
+</html>
