@@ -1,0 +1,8 @@
+.c1,.c2,.c3{
+    width: 50%;
+}
+
+.container{
+    margin: auto;
+    max-width: 800px;
+}

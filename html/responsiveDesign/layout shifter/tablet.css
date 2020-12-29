@@ -1,0 +1,16 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+.f-element,.s-element{
+    width: 50%;
+}
+
+.f-element{
+    height: 750px;
+}
+
+
+
+
