@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;    
+    padding-left: 3%;
+    box-shadow: 0px 7px 10px rgba(0,0,0,.5);
+}
+
+header nav{    
+    height: 100%;
+    display: flex;    
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header nav h1{
+    font-size: 30px;
+}
