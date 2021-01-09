@@ -1,24 +1,68 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
     box-sizing: border-box;
 }
 
+/*
+    w: 100%;
+    pl: 3%;
+    wt: 103%;
+*/
+
 header{
     width: 100%;
-    height: 70px;    
+    height: 7vh;
     padding-left: 3%;
     box-shadow: 0px 7px 10px rgba(0,0,0,.5);
 }
 
-header nav{    
+header nav{
     height: 100%;
-    display: flex;    
+    display: flex;
     align-items: center;
-    justify-content: flex-start;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header nav h1{
-    font-size: 30px;
+/*
+    first
+    secong
+    third
+    four
+    nth
+*/
+main{
+    width: 100%;
+    height: 83vh; 
+    display: flex;         
+}
+
+main aside{
+    width: 15vw;
+    height: 100%;   
+    overflow-y: scroll; 
+}
+
+main aside figure{
+    width: 100%;
+    margin: 10px 0px 0 0;
+}
+
+main aside figure img{
+    width: 100%;
+}
+
+main section{
+    width: 85vw;
+    height: 100%;
+}
+
+main section img, main section figure{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
 }
