@@ -32,8 +32,8 @@ header nav svg{
 }
 
 header .container{
-    display: flex;
     height: 100%;
+    display: flex;
     align-items: center;
 }
 
@@ -42,21 +42,20 @@ header .container{
 }
 
 .links a{
-    font-size: 12px;
     padding: 0 8px;
     color: #5f6368;
-    line-height: 48px;
+    font-size: 12px;
     font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none; 
+    line-height: 48px;
     margin-right: 8px;   
+    text-decoration: none; 
+    text-transform: uppercase;
 }
 
 .links a.active{
     color: #4285f4 ;
     border-bottom: 2px solid #4285f4;
 }
-
 
 header .container .tools{
     padding: 8px;
@@ -72,17 +71,79 @@ header .container .user img{
 
 main{
     width: 100%;
+    height: 83vh;
     display: flex;
-    padding-top: 20px;;
+    padding-top: 20px;
+    flex-direction: column;
 }
 
 main .logo{
     width: 160px;
     height: 56px;
-    margin: 36px auto 18px;
+    margin: 36px auto 36px;
 }
 
 main .logo img{
-    margin: 8px 0;
     width: 100%;
+    margin: 8px 0;
+}
+
+.input{    
+    width: 95%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;    
+    border-radius: 50px;
+    border: 1px solid #dadce0;
+    justify-content: flex-start;
+}
+
+.input svg{
+    width:30px;
+    fill: #9aa0a6;
+    margin-left: 5px;
+}
+
+.input input{
+    width: 75%;
+    border:none;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.container .text{
+    width: 100%;
+    font-size: small;
+    margin-top: 24px;
+    line-height: 28px;    
+    text-align: center;
+}
+
+.container .text a{
+    color: #1967d2;    
+    text-decoration: none;
+}
+
+footer{
+    height: 15vh;
+    background: #f2f2f2;
+}
+
+footer .col-1{
+    padding: 8px 0;
+    text-indent: 3vw;
+    color: rgba(0,0,0,.54);
+    border-bottom:1px solid rgba(0,0,0,.14);
+}
+
+.footer-options{
+    display: flex;    
+    padding: 10px 0;
+    font-size: small;
+    justify-content: space-around;
+}
+
+.footer-options a{
+    color: #70757a;    
+    text-decoration: none;
 }
