@@ -1,0 +1,10 @@
+main aside{
+    height: 210px;
+}
+
+main aside a{
+    width: 54vw;
+    height: 200px;    
+    max-width: 410px;
+}
+

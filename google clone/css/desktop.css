@@ -1,0 +1,25 @@
+main{
+	height: 80vh;
+}
+
+main .container{
+	width: 50vw;
+	margin: 0 auto;
+}
+
+.location{
+	display: none;
+}
+
+nav .menu{
+	display: none;
+}
+
+header nav{
+	justify-content: flex-end;
+}
+
+.links a.active{
+	border: none;
+	color: #5f6368;
+}
