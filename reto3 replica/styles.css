@@ -21,4 +21,5 @@ header nav{
 
 header nav h1{
     font-size: 30px;
+    overflow-y: 5px;
 }
