@@ -1,0 +1,33 @@
+main .logo{
+	width: 272px;
+	height: auto;
+	margin-top: 142px;
+}
+
+main .logo img{
+	width: 272px;
+}
+
+.location{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom:1px solid rgba(0,0,0,.14);
+}
+
+.location .point{
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	border-radius: 100%;
+	background: rgb(60, 64, 67);
+}
+
+.location b{
+	color: rgb(60, 64, 67);
+}
+
+.location span{
+	color: #70757a;
+	margin-left: 10px;
+}

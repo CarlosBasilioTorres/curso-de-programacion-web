@@ -1,16 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Wallpapers</title>
-    <link rel="stylesheet" href="./styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Wallpapers</title>
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="./tablet.css" media="screen and (min-width:600px)">
+	<link rel="stylesheet" href="./desktop.css" media="screen and (min-width:1200px)">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>Wallpapers</h1>
-        </nav>
-    </header>    
+	<header>
+		<nav>
+			<h1>
+				Wallpapers
+			</h1>
+		</nav>
+	</header>
+	<main>					
+		<aside>
+			<a href="#">
+				<figure>
+					<img src="./images/wp1.jpg" alt="">
+				</figure>
+			</a>
+			<a href="#">
+				<figure>
+					<img src="./images/wp2.jpg" alt="">
+				</figure>
+			</a>
+			<a href="#">
+				<figure>
+					<img src="./images/wp3.png" alt="">
+				</figure>
+			</a>
+			<a href="#">
+				<figure>
+					<img src="./images/wp4.jpg" alt="">
+				</figure>
+			</a>
+			<a href="#">
+				<figure>
+					<img src="./images/wp5.jpg" alt="">
+				</figure>
+			</a>			
+			<a href="#">
+				<figure>
+					<img src="./images/wp6.png" alt="">
+				</figure>
+			</a>			
+		</aside>			
+		<section>
+			<figure>
+				<img src="./images/wp1.jpg" alt="">
+			</figure>
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+	<script>
+		/*
+			DOM
+
+			document
+			object
+			model
+		*/
+
+		document.querySelectorAll("aside img").forEach( function(element) {
+			element.addEventListener("click",function(e){
+				e.preventDefault();
+				document.querySelector("section img").src = e.target.src;
+			})
+		});
+	</script>
 </body>
 </html>
